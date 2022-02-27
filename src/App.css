@@ -1,38 +1,124 @@
-.App {
+#App{
+  background-image: url("/public/background-2426328.jpg");
+  background-size:cover;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.ab{
+  color: #BDD5EF;
+}
+.b-s{
+  padding-bottom: 30px ;
+  backdrop-filter: blur(4px);
+}
+.title{
+  margin: 0;
+  padding: 0 20px;
+}
+.heading{
+  font-family: 'Roboto Mono', monospace;
+  margin: auto;
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(to left,#00000000,#00000069,#00000077,#00000096,#00000077,#00000069,#00000000);
+  width: 100%;
+}
+.main{
+  /* background-color: #2e2e2e93; */
+  /* background: linear-gradient(to top right ,#e25c5c00,#2b2b2b,#242424a6,#2b2b2bfd,#26262600); */
+  margin: 30px auto;
+  padding: 10px;
+  backdrop-filter: blur(2px);
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p{
+  color:#BDD5EF;
+  text-align: left;
+  margin: 10px;
+  font-size: 20px;
+  font-family:  monospace;
+}
+.enter-text{
+  padding: 0;
+  margin: 10px 0;
+}
+.text{
+  width: 400px;
+  font-size: 20px;
+  padding: 5px;
+  background-color: silver;
+}
+.code{
+  margin: auto;
+  width: 500px;
+  padding: 20px 0;
+}
+#qrCodeEl{
+  background-color: white;
+  padding: 20px;
+}
+.bnt{
+  text-align: center;
+  margin: 15px;
+}
+.btn {
+  border: 0;
+  border-radius: 20px;
+  font-family: Arial;
+  color: #252525;
+  font-size: 20px;
+  background: #BDD5EF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.btn:hover {
+  background: #000000;
+  color: #BDD5EF;
+}
+.downloadImg{
+  width: 20px;
+  margin-right: 10px;
+}
+.details{
+  text-align: center;
+}
+.my-text{
+  text-align: center;
+  font-size: 20px;
+  margin: 20px;
+}
+.links{
+  padding: 0;
+}
+.logo{
+  height: 30px;
+  margin: 0 20px;
+}
+@media (max-width:600px){
+  .heading{
+    font-size: 40px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .text{
+    margin: 20px;
+    width: 300px;
+    font-size: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  .main{
+    margin: 5px auto;
+  }
+  .code{
+    width:300px;
+    padding: 10px 0;
+    margin: 20px auto;
+  }
+  .btn{
+    margin: 30px;
+  }
+  .logo{
+    margin: 20px;
   }
 }
